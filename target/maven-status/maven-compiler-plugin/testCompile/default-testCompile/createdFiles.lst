@@ -1,0 +1,10 @@
+com\buffalocart\test\Bases.class
+com\buffalocart\test\SigninTest.class
+com\buffalocart\test\TaskPageTest.class
+com\buffalocart\test\LogoutTest.class
+com\buffalocart\test\NewUserLoginTest.class
+com\buffalocart\test\NewLeadTest.class
+com\buffalocart\test\ForgotPasswordTest.class
+com\buffalocart\test\ImportleadTest.class
+com\buffalocart\test\NewUserTest.class
+com\buffalocart\test\AllLeadTest.class

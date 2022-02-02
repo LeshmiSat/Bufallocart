@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="33" passed="31" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-01T08:01:36 IST" name="Suite" finished-at="2022-02-01T08:06:25 IST" duration-ms="288802">
+    <groups>
+    </groups>
+    <test started-at="2022-02-01T08:01:36 IST" name="Test" finished-at="2022-02-01T08:06:25 IST" duration-ms="288802">
+      <class name="com.buffalocart.test.LogoutTest">
+        <test-method is-config="true" signature="testInitialize(java.lang.String)[pri:0, instance:com.buffalocart.test.LogoutTest@1e81f160]" started-at="2022-02-01T08:03:37 IST" name="testInitialize" finished-at="2022-02-01T08:03:41 IST" duration-ms="4335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialize -->
+        <test-method signature="verifyNewLead(java.lang.String,java.lang.String)[pri:1, instance:com.buffalocart.test.LogoutTest@1e81f160]" started-at="2022-02-01T08:03:41 IST" name="verifyNewLead" data-provider="dp" finished-at="2022-02-01T08:03:54 IST" duration-ms="12935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewLead -->
+        <test-method signature="verifyLogoutpage()[pri:2, instance:com.buffalocart.test.LogoutTest@1e81f160]" started-at="2022-02-01T08:03:54 IST" name="verifyLogoutpage" description="TC_006_Logout" finished-at="2022-02-01T08:03:58 IST" duration-ms="4295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutpage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.buffalocart.test.LogoutTest@1e81f160]" started-at="2022-02-01T08:03:58 IST" name="tearDown" finished-at="2022-02-01T08:03:59 IST" duration-ms="589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.buffalocart.test.LogoutTest -->
+      <class name="com.buffalocart.test.NewUserLoginTest">
+        <test-method is-config="true" signature="testInitialize(java.lang.String)[pri:0, instance:com.buffalocart.test.NewUserLoginTest@379614be]" started-at="2022-02-01T08:02:55 IST" name="testInitialize" finished-at="2022-02-01T08:02:59 IST" duration-ms="4604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialize -->
+        <test-method signature="verifyNewUserSignin(java.lang.String,java.lang.String)[pri:0, instance:com.buffalocart.test.NewUserLoginTest@379614be]" started-at="2022-02-01T08:03:00 IST" name="verifyNewUserSignin" description="TC_017_NewuserLogin" data-provider="dp" finished-at="2022-02-01T08:03:10 IST" duration-ms="10878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[niya12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewUserSignin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.buffalocart.test.NewUserLoginTest@379614be]" started-at="2022-02-01T08:03:10 IST" name="tearDown" finished-at="2022-02-01T08:03:11 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.buffalocart.test.NewUserLoginTest -->
+      <class name="com.buffalocart.test.TaskPageTest">
+        <test-method is-config="true" signature="testInitialize(java.lang.String)[pri:0, instance:com.buffalocart.test.TaskPageTest@55c53a33]" started-at="2022-02-01T08:01:36 IST" name="testInitialize" finished-at="2022-02-01T08:01:45 IST" duration-ms="8829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialize -->
+        <test-method signature="verifyTaskLogin(java.lang.String,java.lang.String)[pri:1, instance:com.buffalocart.test.TaskPageTest@55c53a33]" started-at="2022-02-01T08:01:46 IST" name="verifyTaskLogin" data-provider="dp" finished-at="2022-02-01T08:01:59 IST" duration-ms="12841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTaskLogin -->
+        <test-method signature="verifyTaskIcon_()[pri:2, instance:com.buffalocart.test.TaskPageTest@55c53a33]" started-at="2022-02-01T08:01:59 IST" name="verifyTaskIcon_" description="TC_014_Taskicon" finished-at="2022-02-01T08:02:03 IST" duration-ms="3754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTaskIcon_ -->
+        <test-method signature="verifyAddnewTask()[pri:3, instance:com.buffalocart.test.TaskPageTest@55c53a33]" started-at="2022-02-01T08:02:03 IST" name="verifyAddnewTask" description="TC_015_NewTask" finished-at="2022-02-01T08:02:06 IST" duration-ms="2733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddnewTask -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.buffalocart.test.TaskPageTest@55c53a33]" started-at="2022-02-01T08:02:06 IST" name="tearDown" finished-at="2022-02-01T08:02:10 IST" duration-ms="4429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.buffalocart.test.TaskPageTest -->
+      <class name="com.buffalocart.test.NewUserTest">
+        <test-method is-config="true" signature="testInitialize(java.lang.String)[pri:0, instance:com.buffalocart.test.NewUserTest@404bbcbd]" started-at="2022-02-01T08:03:11 IST" name="testInitialize" finished-at="2022-02-01T08:03:15 IST" duration-ms="3962" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialize -->
+        <test-method signature="verifyUserSignin(java.lang.String,java.lang.String)[pri:1, instance:com.buffalocart.test.NewUserTest@404bbcbd]" started-at="2022-02-01T08:03:15 IST" name="verifyUserSignin" data-provider="dp" finished-at="2022-02-01T08:03:27 IST" duration-ms="12260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserSignin -->
+        <test-method signature="verifyUserPage()[pri:2, instance:com.buffalocart.test.NewUserTest@404bbcbd]" started-at="2022-02-01T08:03:27 IST" name="verifyUserPage" description="TC_010_verifyTitlepage" finished-at="2022-02-01T08:03:31 IST" duration-ms="3882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserPage -->
+        <test-method signature="verifyCreateNewUserpage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.buffalocart.test.NewUserTest@404bbcbd]" started-at="2022-02-01T08:03:31 IST" name="verifyCreateNewUserpage" description="TC_011_Createnewuser" data-provider="dp2" finished-at="2022-02-01T08:03:36 IST" duration-ms="4943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[niyathi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[niya12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123567]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123567]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[niya@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewUserpage -->
+        <test-method signature="verifyCreateUser()[pri:4, instance:com.buffalocart.test.NewUserTest@404bbcbd]" started-at="2022-02-01T08:03:36 IST" name="verifyCreateUser" description="TC_013_Created" finished-at="2022-02-01T08:03:36 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.buffalocart.test.NewUserTest@404bbcbd]" started-at="2022-02-01T08:03:36 IST" name="tearDown" finished-at="2022-02-01T08:03:37 IST" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.buffalocart.test.NewUserTest -->
+      <class name="com.buffalocart.test.ImportleadTest">
+        <test-method is-config="true" signature="testInitialize(java.lang.String)[pri:0, instance:com.buffalocart.test.ImportleadTest@1bab8268]" started-at="2022-02-01T08:04:20 IST" name="testInitialize" finished-at="2022-02-01T08:04:24 IST" duration-ms="4051" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialize -->
+        <test-method signature="verifyNewLead(java.lang.String,java.lang.String)[pri:1, instance:com.buffalocart.test.ImportleadTest@1bab8268]" started-at="2022-02-01T08:04:24 IST" name="verifyNewLead" data-provider="dp" finished-at="2022-02-01T08:04:41 IST" duration-ms="16829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewLead -->
+        <test-method signature="verifyImprtLeadpage()[pri:2, instance:com.buffalocart.test.ImportleadTest@1bab8268]" started-at="2022-02-01T08:04:41 IST" name="verifyImprtLeadpage" description="TC_008_verifypagetitle" finished-at="2022-02-01T08:04:44 IST" duration-ms="2896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImprtLeadpage -->
+        <test-method signature="verifyUploadFile()[pri:3, instance:com.buffalocart.test.ImportleadTest@1bab8268]" started-at="2022-02-01T08:04:44 IST" name="verifyUploadFile" description="TC_009_FileUpload" finished-at="2022-02-01T08:04:48 IST" duration-ms="4448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUploadFile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.buffalocart.test.ImportleadTest@1bab8268]" started-at="2022-02-01T08:04:48 IST" name="tearDown" finished-at="2022-02-01T08:04:49 IST" duration-ms="575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.buffalocart.test.ImportleadTest -->
+      <class name="com.buffalocart.test.HomePageTest">
+        <test-method is-config="true" signature="testInitialize(java.lang.String)[pri:0, instance:com.buffalocart.test.HomePageTest@3ddc6915]" started-at="2022-02-01T08:02:10 IST" name="testInitialize" finished-at="2022-02-01T08:02:15 IST" duration-ms="4498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialize -->
+        <test-method signature="verifyGetYourAccountPage()[pri:1, instance:com.buffalocart.test.HomePageTest@3ddc6915]" started-at="2022-02-01T08:02:15 IST" name="verifyGetYourAccountPage" description="TC_021_Verify Get Your Accout Page" finished-at="2022-02-01T08:02:19 IST" duration-ms="3821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetYourAccountPage -->
+        <test-method signature="verifyAttendanceMark(java.lang.String,java.lang.String)[pri:2, instance:com.buffalocart.test.HomePageTest@3ddc6915]" started-at="2022-02-01T08:02:19 IST" name="verifyAttendanceMark" description="TC_024_Verify Whether Attendance is Marked" data-provider="dp" finished-at="2022-02-01T08:02:26 IST" duration-ms="7368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAttendanceMark -->
+        <test-method signature="verifyhomePagetitle()[pri:3, instance:com.buffalocart.test.HomePageTest@3ddc6915]" started-at="2022-02-01T08:02:26 IST" name="verifyhomePagetitle" description="TC_022_Verify Home Page title" finished-at="2022-02-01T08:02:26 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomePagetitle -->
+        <test-method signature="verifydate()[pri:4, instance:com.buffalocart.test.HomePageTest@3ddc6915]" started-at="2022-02-01T08:02:26 IST" name="verifydate" description="TC_023_Verify date in home page" finished-at="2022-02-01T08:02:26 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydate -->
+        <test-method signature="verifySearchMenu()[pri:5, instance:com.buffalocart.test.HomePageTest@3ddc6915]" started-at="2022-02-01T08:02:26 IST" name="verifySearchMenu" description="TC_025_Verify Search Menu " finished-at="2022-02-01T08:02:26 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchMenu -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.buffalocart.test.HomePageTest@3ddc6915]" started-at="2022-02-01T08:02:27 IST" name="tearDown" finished-at="2022-02-01T08:02:27 IST" duration-ms="566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.buffalocart.test.HomePageTest -->
+      <class name="com.buffalocart.test.AllLeadTest">
+        <test-method is-config="true" signature="testInitialize(java.lang.String)[pri:0, instance:com.buffalocart.test.AllLeadTest@6986852]" started-at="2022-02-01T08:03:59 IST" name="testInitialize" finished-at="2022-02-01T08:04:04 IST" duration-ms="4549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialize -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String)[pri:1, instance:com.buffalocart.test.AllLeadTest@6986852]" started-at="2022-02-01T08:04:04 IST" name="verifyLogin" data-provider="dp" finished-at="2022-02-01T08:04:16 IST" duration-ms="11985" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifyTheLeadpage()[pri:2, instance:com.buffalocart.test.AllLeadTest@6986852]" started-at="2022-02-01T08:04:16 IST" name="verifyTheLeadpage" description="TC_007_AllLead pageDisplayed" finished-at="2022-02-01T08:04:19 IST" duration-ms="3473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheLeadpage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.buffalocart.test.AllLeadTest@6986852]" started-at="2022-02-01T08:04:19 IST" name="tearDown" finished-at="2022-02-01T08:04:20 IST" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.buffalocart.test.AllLeadTest -->
+      <class name="com.buffalocart.test.SigninTest">
+        <test-method is-config="true" signature="testInitialize(java.lang.String)[pri:0, instance:com.buffalocart.test.SigninTest@704deff2]" started-at="2022-02-01T08:02:27 IST" name="testInitialize" finished-at="2022-02-01T08:02:31 IST" duration-ms="4279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialize -->
+        <test-method signature="verifyLoginTitle()[pri:1, instance:com.buffalocart.test.SigninTest@704deff2]" started-at="2022-02-01T08:02:31 IST" name="verifyLoginTitle" description="TC_001_verifyLoginTitle" finished-at="2022-02-01T08:02:31 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTitle -->
+        <test-method signature="verifySignIn(java.lang.String,java.lang.String)[pri:2, instance:com.buffalocart.test.SigninTest@704deff2]" started-at="2022-02-01T08:02:31 IST" name="verifySignIn" description="TC_002_SignIn" data-provider="dp" finished-at="2022-02-01T08:02:35 IST" duration-ms="3841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[leshmi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignIn -->
+        <test-method signature="verifySignIn(java.lang.String,java.lang.String)[pri:2, instance:com.buffalocart.test.SigninTest@704deff2]" started-at="2022-02-01T08:02:35 IST" name="verifySignIn" description="TC_002_SignIn" data-provider="dp" finished-at="2022-02-01T08:02:50 IST" duration-ms="14927" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="alert alert-danger"]"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LESHMISAT', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7d26372599d2cd560ea7dec3bf6dd47, findElement {using=xpath, value=//div[@class="alert alert-danger"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\LESHMI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57193}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57193/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f7d26372599d2cd560ea7dec3bf6dd47]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="alert alert-danger"]"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LESHMISAT', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7d26372599d2cd560ea7dec3bf6dd47, findElement {using=xpath, value=//div[@class="alert alert-danger"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\LESHMI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57193}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57193/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f7d26372599d2cd560ea7dec3bf6dd47
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
+at com.buffalocart.pages.SignIn.isAlertPresent(SignIn.java:35)
+at com.buffalocart.test.SigninTest.verifySignIn(SigninTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignIn -->
+        <test-method signature="verifyHomepageTitle()[pri:3, instance:com.buffalocart.test.SigninTest@704deff2]" started-at="2022-02-01T08:02:50 IST" name="verifyHomepageTitle" description="TC_003_Homepage" finished-at="2022-02-01T08:02:50 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.buffalocart.test.SigninTest@704deff2]" started-at="2022-02-01T08:02:50 IST" name="tearDown" finished-at="2022-02-01T08:02:55 IST" duration-ms="4386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.buffalocart.test.SigninTest -->
+      <class name="com.buffalocart.test.NewLeadTest">
+        <test-method is-config="true" signature="testInitialize(java.lang.String)[pri:0, instance:com.buffalocart.test.NewLeadTest@a307a8c]" started-at="2022-02-01T08:04:49 IST" name="testInitialize" finished-at="2022-02-01T08:04:54 IST" duration-ms="5544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialize -->
+        <test-method signature="verifyNewLead(java.lang.String,java.lang.String)[pri:1, instance:com.buffalocart.test.NewLeadTest@a307a8c]" started-at="2022-02-01T08:04:54 IST" name="verifyNewLead" data-provider="dp" finished-at="2022-02-01T08:05:09 IST" duration-ms="15054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewLead -->
+        <test-method signature="verifyAddleadpage(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.buffalocart.test.NewLeadTest@a307a8c]" started-at="2022-02-01T08:05:09 IST" name="verifyAddleadpage" description="TC_004_Lead" data-provider="dp2" finished-at="2022-02-01T08:05:17 IST" duration-ms="7430" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lead123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[obsqura]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[obsqurazone@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9456789909]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[trivandrum]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ameya]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8976558]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[absqura,trivandrum]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[kerala]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="parsley-required"]"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LESHMISAT', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5167c2285450d0074441cb7cef9f1d1d, findElement {using=xpath, value=//li[@class="parsley-required"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\LESHMI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57450/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5167c2285450d0074441cb7cef9f1d1d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="parsley-required"]"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LESHMISAT', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5167c2285450d0074441cb7cef9f1d1d, findElement {using=xpath, value=//li[@class="parsley-required"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\LESHMI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57450/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5167c2285450d0074441cb7cef9f1d1d
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
+at com.buffalocart.pages.NewLead.required(NewLead.java:98)
+at com.buffalocart.test.NewLeadTest.verifyAddleadpage(NewLeadTest.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddleadpage -->
+        <test-method signature="verifySaveNewLead()[pri:3, instance:com.buffalocart.test.NewLeadTest@a307a8c]" started-at="2022-02-01T08:05:17 IST" name="verifySaveNewLead" description="TC_005_Save" finished-at="2022-02-01T08:05:21 IST" duration-ms="4607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySaveNewLead -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.buffalocart.test.NewLeadTest@a307a8c]" started-at="2022-02-01T08:05:21 IST" name="tearDown" finished-at="2022-02-01T08:05:22 IST" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.buffalocart.test.NewLeadTest -->
+      <class name="com.buffalocart.test.ForgotPasswordTest">
+        <test-method is-config="true" signature="testInitialize(java.lang.String)[pri:0, instance:com.buffalocart.test.ForgotPasswordTest@6e01f9b0]" started-at="2022-02-01T08:05:22 IST" name="testInitialize" finished-at="2022-02-01T08:05:26 IST" duration-ms="3881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialize -->
+        <test-method signature="verifyRememberPassword()[pri:1, instance:com.buffalocart.test.ForgotPasswordTest@6e01f9b0]" started-at="2022-02-01T08:05:26 IST" name="verifyRememberPassword" description="TC_018_rememberPassword" finished-at="2022-02-01T08:05:26 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRememberPassword -->
+        <test-method signature="forgotpasswordPage()[pri:2, instance:com.buffalocart.test.ForgotPasswordTest@6e01f9b0]" started-at="2022-02-01T08:05:26 IST" name="forgotpasswordPage" description="TC_016_forgotpassword" finished-at="2022-02-01T08:06:00 IST" duration-ms="34516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpasswordPage -->
+        <test-method signature="verifyInvalidLogin()[pri:3, instance:com.buffalocart.test.ForgotPasswordTest@6e01f9b0]" started-at="2022-02-01T08:06:00 IST" name="verifyInvalidLogin" description="TC_017_invalidforgot" finished-at="2022-02-01T08:06:05 IST" duration-ms="5002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method signature="verifyRememberedPassword()[pri:4, instance:com.buffalocart.test.ForgotPasswordTest@6e01f9b0]" started-at="2022-02-01T08:06:05 IST" name="verifyRememberedPassword" description="TC_019_rememberedPassword" finished-at="2022-02-01T08:06:07 IST" duration-ms="1365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRememberedPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.buffalocart.test.ForgotPasswordTest@6e01f9b0]" started-at="2022-02-01T08:06:07 IST" name="tearDown" finished-at="2022-02-01T08:06:07 IST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.buffalocart.test.ForgotPasswordTest -->
+      <class name="com.buffalocart.test.StockManagmentTest">
+        <test-method is-config="true" signature="testInitialize(java.lang.String)[pri:0, instance:com.buffalocart.test.StockManagmentTest@2b9ed6da]" started-at="2022-02-01T08:06:07 IST" name="testInitialize" finished-at="2022-02-01T08:06:12 IST" duration-ms="4428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInitialize -->
+        <test-method signature="verifySignin(java.lang.String,java.lang.String)[pri:1, instance:com.buffalocart.test.StockManagmentTest@2b9ed6da]" started-at="2022-02-01T08:06:12 IST" name="verifySignin" data-provider="dp" finished-at="2022-02-01T08:06:24 IST" duration-ms="12166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignin -->
+        <test-method signature="verifyUserList()[pri:2, instance:com.buffalocart.test.StockManagmentTest@2b9ed6da]" started-at="2022-02-01T08:06:24 IST" name="verifyUserList" description="TC_020_StockManagement" finished-at="2022-02-01T08:06:25 IST" duration-ms="834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.buffalocart.test.StockManagmentTest@2b9ed6da]" started-at="2022-02-01T08:06:25 IST" name="tearDown" finished-at="2022-02-01T08:06:25 IST" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.buffalocart.test.StockManagmentTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
